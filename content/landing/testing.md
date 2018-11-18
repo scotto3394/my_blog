@@ -29,10 +29,8 @@ weight = 0
 draft = false
 
 # If filled, it will use taht slug instead of the filename to make up the URL
-
 # It will still use the section path though
-
-slug = ""
+# slug = ""
 
 # The path the content will appear at
 
