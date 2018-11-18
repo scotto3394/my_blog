@@ -17,7 +17,7 @@ template = "section.html"
 # will always use the closest to itself.
 # However, a page own `template` variable will always have priority.
 # Not set by default
-page_template = 
+# page_template = 
 
 # How many pages to be displayed per paginated page.
 # No pagination will happen if this isn't set or if the value is 0
