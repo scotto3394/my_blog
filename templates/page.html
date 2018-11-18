@@ -1,9 +1,10 @@
 {% extends "index.html" %}
 
 {% block content %}
-    {{ page.content | safe }}
-    {{ page.relative_path | safe }}
-
-    {% if page.earlier %}Previous article: {{ page.earlier.permalink }}{% endif %}
-    {% if page.later %}Next article: {{ page.later.permalink }}{% endif %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  {{ page.content | safe }}
+</div>
 {% endblock content %}
+
