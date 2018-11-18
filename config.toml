@@ -31,3 +31,6 @@ hyde_links = [
 ]
 
 hyde_theme = "theme-base-0d"
+
+[extra.author]
+name = "Scott Manifold"
